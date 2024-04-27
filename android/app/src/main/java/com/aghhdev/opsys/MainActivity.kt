@@ -1,4 +1,4 @@
-package com.opsys
+package com.aghhdev.opsys
 import android.os.Bundle
 
 import com.facebook.react.ReactActivity

@@ -1,4 +1,4 @@
-package com.opsys
+package com.aghhdev.opsys
 
 import android.app.Application
 import com.facebook.react.PackageList
