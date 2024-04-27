@@ -9,7 +9,8 @@ import { useContent } from '../../tools/hooks/useContent'
 import { StackScreenProps } from '@react-navigation/stack'
 import { HomeStackNavigatorParams } from '../../router/HomeStack'
 import { ContentTypes } from '../../types/ContentCard'
-import { Ionicons } from '@expo/vector-icons';
+// import { Ionicons } from '@expo/vector-icons';
+// import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useFavoritesStorage } from '../../tools/hooks/useFavoritesStorage'
 import { useFocusEffect } from '@react-navigation/native'
 import { LoadingComponent } from '../../shared/components/LoadingComponent'
@@ -49,7 +50,7 @@ export const ContentCard: FC<ContentCardProps> = ({title, route}) => {
                 }}
                 className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
                   <Text className='text-textboxs'>Añadir A Favoritos</Text>
-                <Ionicons name="heart-outline" size={32} color="#fff" />
+                {/* <Ionicons name="heart-outline" size={32} color="#fff" /> */}
               </TouchableOpacity>
             ) : (
               <TouchableOpacity 
@@ -58,7 +59,7 @@ export const ContentCard: FC<ContentCardProps> = ({title, route}) => {
                 }}
                 className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
                 <Text className='text-textboxs'>Remover De Favoritos</Text>
-                <Ionicons name="heart" size={32} color="red" />
+                {/* <Ionicons name="heart" size={32} color="red" /> */}
               </TouchableOpacity>
             )
           }
