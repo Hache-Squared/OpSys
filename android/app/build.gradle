@@ -7,7 +7,7 @@ project.ext.vectoricons = [
     iconFontNames: [ 'Ionicons.ttf', 'MaterialIcons.ttf', 'EvilIcons.ttf' ] // Specify font files
 ]
 
-
+// apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 
 
 /**
@@ -129,5 +129,7 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
