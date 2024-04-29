@@ -7,15 +7,18 @@ export interface AbourCardProps {
     name?: string,
     id?: string,
     email?: string,
+    career?: string,
     percentage?: string,
 
 }
 
-export const AbourCard: FC<AbourCardProps> = ({photo,name, id, email,  percentage}) => {
+export const AbourCard: FC<AbourCardProps> = ({photo,name, id, email,  percentage, career}) => {
   return (
+    <>
+    <View className="w-11/12 self-center p-0.5" style={{backgroundColor:AppTheme.secondary}}/>
     <View
         // style={{backgroundColor: AppTheme.secondary}}
-        className=" w-11/12 self-center h-[300px] flex-col items-center justify-center  rounded-md shadow-md shadow-slate-700 my-2">
+        className={` w-11/12 self-center h-[300px] flex-col items-center justify-center  rounded-md shadow-md shadow-[${AppTheme.secondary}] my-2`}>
         <View className=" w-11/12 self-center flex-col items-center justify-center ">
             <Image 
                 source={photo} 
@@ -38,6 +41,14 @@ export const AbourCard: FC<AbourCardProps> = ({photo,name, id, email,  percentag
                 {id}
             </Text>
         </View>
+        <View className=" w-11/12 self-center flex-row text-left gap-1 p-1">
+            <Text className="font-bold text-textboxs text-sm">
+                Carrera:
+            </Text>
+            <Text className=" text-textboxs text-sm">
+                {career}
+            </Text>
+        </View>
         
         <View className=" w-11/12 self-center flex-row text-left gap-1 p-1">
             <Text className="font-bold text-textboxs text-sm">
@@ -57,5 +68,7 @@ export const AbourCard: FC<AbourCardProps> = ({photo,name, id, email,  percentag
             </Text>
         </View>
     </View>
+    <View className="w-11/12 self-center p-0.5" style={{backgroundColor:AppTheme.secondary}}/>
+    </>
   );
 };

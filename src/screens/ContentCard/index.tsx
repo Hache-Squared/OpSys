@@ -39,38 +39,38 @@ export const ContentCard: FC<ContentCardProps> = ({title, route}) => {
     <MainContainer>
 
       <Title title={content?.title ?? "Titulo"}/>
-      {
+      {/* {
         loading ? (
           <LoadingComponent/>
         ) : (
-        <View className='w-full py-2 flex-row items-center justify-end'>
-          {
-            (!isFavorite) ? (
-              <TouchableOpacity 
-                onPress={() => {
-                  addToFavorites()
-                }}
-                className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
-                  {/* <Text className='text-textboxs'>Añadir A Favoritos</Text> */}
-                  <Ionicons name="heart-outline" size={32} color="#fff" />
-                  {/* <Icon name="rocket" size={30} color="#900" /> */}
-              </TouchableOpacity>
-            ) : (
-              <TouchableOpacity 
-                onPress={() => {
-                  removeOfFavorites()
-                }}
-                className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
-                {/* <Text className='text-textboxs'>Remover De Favoritos</Text> */}
-                <Ionicons name="heart" size={32} color={AppTheme.secondary} />
-              </TouchableOpacity>
-            )
-          }
-          
-        </View>
         )
-      }
+      } */}
 
+      <View className='w-full py-2 flex-row items-center justify-end'>
+        {
+          (!isFavorite) ? (
+            <TouchableOpacity 
+              onPress={() => {
+                addToFavorites()
+              }}
+              className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
+                {/* <Text className='text-textboxs'>Añadir A Favoritos</Text> */}
+                <Ionicons name="heart-outline" size={32} color="#fff" />
+                {/* <Icon name="rocket" size={30} color="#900" /> */}
+            </TouchableOpacity>
+          ) : (
+            <TouchableOpacity 
+              onPress={() => {
+                removeOfFavorites()
+              }}
+              className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
+              {/* <Text className='text-textboxs'>Remover De Favoritos</Text> */}
+              <Ionicons name="heart" size={32} color={AppTheme.secondary} />
+            </TouchableOpacity>
+          )
+        }
+        
+      </View>
 
       {
         content?.content?.map((item, index) => {

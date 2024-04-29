@@ -12,6 +12,7 @@ export const AboutUsScreen = () => {
           <AbourCard
             key={index}
             email={item?.email}
+            career={item?.career}
             id={item?.id}
             name={item?.name}
             percentage={item?.percentage}

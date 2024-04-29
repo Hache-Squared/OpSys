@@ -6,7 +6,7 @@ interface ContentImageProps {
 }
 export const ContentImage: FC<ContentImageProps> = ({uri}) => {
   return (
-    <View className='w-11/12 flex bg-red-500 items-center justify-center self-center my-2 rounded-md'>
+    <View className='w-11/12 flex bg-gray-500 items-center justify-center self-center my-2 rounded-md'>
 
         <Image
         source={{uri: uri}} 

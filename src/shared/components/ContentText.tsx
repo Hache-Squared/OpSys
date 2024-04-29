@@ -10,7 +10,7 @@ interface ContentTextProps {
 export const ContentText: FC<ContentTextProps> = ({content}) => {
   return (
     <View className='w-11/12 p-1 bg-secondary rounded-md self-center my-1' style={{backgroundColor: AppTheme.secondary}}>
-        <Text className='text-black text-sm'>
+        <Text className='text-white text-sm'>
             {content}
         </Text>
     </View>
