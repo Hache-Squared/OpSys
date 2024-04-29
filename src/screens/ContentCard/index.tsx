@@ -15,6 +15,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useFavoritesStorage } from '../../tools/hooks/useFavoritesStorage'
 import { useFocusEffect } from '@react-navigation/native'
 import { LoadingComponent } from '../../shared/components/LoadingComponent'
+import { AppTheme } from '../../config/AppTheme'
 
 interface ContentCardProps extends StackScreenProps<HomeStackNavigatorParams, "ContentCard"> {
     title?: string,
@@ -50,9 +51,9 @@ export const ContentCard: FC<ContentCardProps> = ({title, route}) => {
                   addToFavorites()
                 }}
                 className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
-                  <Text className='text-textboxs'>Añadir A Favoritos</Text>
-                <Ionicons name="heart-outline" size={32} color="#fff" />
-                {/* <Icon name="rocket" size={30} color="#900" /> */}
+                  {/* <Text className='text-textboxs'>Añadir A Favoritos</Text> */}
+                  <Ionicons name="heart-outline" size={32} color="#fff" />
+                  {/* <Icon name="rocket" size={30} color="#900" /> */}
               </TouchableOpacity>
             ) : (
               <TouchableOpacity 
@@ -60,8 +61,8 @@ export const ContentCard: FC<ContentCardProps> = ({title, route}) => {
                   removeOfFavorites()
                 }}
                 className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
-                <Text className='text-textboxs'>Remover De Favoritos</Text>
-                <Ionicons name="heart" size={32} color="red" />
+                {/* <Text className='text-textboxs'>Remover De Favoritos</Text> */}
+                <Ionicons name="heart" size={32} color={AppTheme.secondary} />
               </TouchableOpacity>
             )
           }
