@@ -3,6 +3,7 @@ import { CardModel } from "../../../types/Card";
 // import { CardsData } from "../../../Data/CardsData";
 import { ContentModel } from "../../../types/ContentCard";
 import { ContentsData } from "../../../Data/ContentsData";
+import { ActivityThreeContentsData } from "../../../Data/ActivityContents/ActivityThree";
 interface useCardsProps {
   preventDefault?: boolean
 }
@@ -16,7 +17,7 @@ const useContent = (idContent: number, props?: useCardsProps) => {
   },[])
 
   const getContent = (): ContentModel | null => {
-    let data = [...ContentsData];
+    let data = [...ActivityThreeContentsData];
     let indexOfContent = data?.findIndex((item) => item?.id === idContent)
     if(indexOfContent === -1){
       return null;

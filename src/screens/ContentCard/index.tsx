@@ -78,7 +78,7 @@ export const ContentCard: FC<ContentCardProps> = ({title, route}) => {
             return(
               <ContentImage
                 key={index}
-                uri={item?.content}
+                image={item?.content}
               />
             )
           }else if(item?.type === ContentTypes.Subtitle) {
