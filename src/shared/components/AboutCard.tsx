@@ -100,3 +100,22 @@ export const AboutCardSchool = () => {
     </>
   );
 };
+
+export const AboutCardMission = () => {
+  return (
+    
+      
+
+      <View className="w-full my-3 py-2 flex flex-col gap-2  self-center" style={{backgroundColor: AppTheme.secondary}}>
+        <View className="flex flex-row flex-wrap  gap-2 font-semibold text-white text-left">
+          <Text className="font-bold text-textboxs text-sm">Mision: </Text>
+          <Text className="">
+          OpSys es una aplicación móvil diseñada para proporcionar información clara y concisa sobre sistemas operativos. Ofrece una plataforma intuitiva donde los usuarios pueden aprender sobre temas clave, como arquitectura de sistemas, gestión de archivos y seguridad informática. 
+          Nos esforzamos por ofrecer una experiencia educativa enriquecedora que satisfaga las necesidades de aprendizaje de estudiantes, profesionales y entusiastas de la tecnología, permitiéndoles adquirir conocimientos de manera efectiva y eficiente.
+          </Text>
+        </View>
+        
+      </View>
+    
+  );
+};

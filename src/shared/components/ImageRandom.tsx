@@ -55,7 +55,7 @@ export const ImageRandom = () => {
     <>
        <Image 
         source={selectedImage} 
-        className="w-full h-[150px] object-contain" 
+        className="w-full h-full object-contain" 
         // style={{ width: 200, height: 200 }} 
         />
       {/* Botón para cambiar la imagen */}
