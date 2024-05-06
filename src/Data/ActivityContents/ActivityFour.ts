@@ -57,13 +57,13 @@ export const ActivityFourContentsData: ContentModel[] = [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/3.jpg") },
             { type: ContentTypes.Text, content: `
             
-                o	Pérdida de datos
-                o	Robo de identidad
-                o	Daño a la reputación
-                o	Interrupción de servicios
-                o	Pérdidas financieras
-                o	Daño a la infraestructura crítica
-                o	Espionaje y sabotaje
+                •	Pérdida de datos
+                •	Robo de identidad
+                •	Daño a la reputación
+                •	Interrupción de servicios
+                •	Pérdidas financieras
+                •	Daño a la infraestructura crítica
+                •	Espionaje y sabotaje
                 
                 `},
             { type: ContentTypes.Text, content: `Estas son solo algunas de las muchas amenazas que pueden surgir debido al malware. El impacto dependerá mucho a que individuo o empresa se infecte con el malware puede resultar para una empresa en pérdidas millonarias.`},
@@ -76,9 +76,9 @@ export const ActivityFourContentsData: ContentModel[] = [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/14.jpg") },
             { type: ContentTypes.Text, content: `Un intruso informático es aquel que intenta acceder a un sistema informático sin autorización. Existen diferentes tipos de intrusos informáticos:`},
             { type: ContentTypes.Text, content: `•	Hacker: destaca por su gran experiencia en programación y electrónica. Por lo regular, es un profesional certificado, con valores y ayudando a la comunidad de seguridad informática. Existen tres tipos:`},
-            { type: ContentTypes.Text, content: `* 	White Hats: también conocidos como hackers éticos, usa sus habilidades para mejorar los sistemas en cuanto a términos de seguridad.`},
-            { type: ContentTypes.Text, content: `* 	Grey Hats: tienen una ética ambigua, ya que suelen buscar vulnerabilidades por métodos poco aprobados éticamente, para después venderlas a quien esté dispuesto a pagar por ellas.`},
-            { type: ContentTypes.Text, content: `* 	Black Hats: en pocas palabras, utilizan sus conocimientos para realizar actividades ilegales, por lo general con ánimo de lucro o por reputación.`},
+            { type: ContentTypes.Text, content: `•	White Hats: también conocidos como hackers éticos, usa sus habilidades para mejorar los sistemas en cuanto a términos de seguridad.`},
+            { type: ContentTypes.Text, content: `•	Grey Hats: tienen una ética ambigua, ya que suelen buscar vulnerabilidades por métodos poco aprobados éticamente, para después venderlas a quien esté dispuesto a pagar por ellas.`},
+            { type: ContentTypes.Text, content: `•	Black Hats: en pocas palabras, utilizan sus conocimientos para realizar actividades ilegales, por lo general con ánimo de lucro o por reputación.`},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/15.png") },
             { type: ContentTypes.Text, content: `•	Cracker: Son expertos en romper sistemas de seguridad o programas en general, y suele tener intenciones ilegales como robar información o realizar fraudes. Viola cualquiera de las leyes de seguridad informática y roba información con fines de lucro.`},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/13.1.jpg") },
@@ -97,29 +97,29 @@ export const ActivityFourContentsData: ContentModel[] = [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/18.jpg") },
             
             { type: ContentTypes.Subtitle, content: "Seguridad Física:"},
-            { type: ContentTypes.Text, content: `* 	Control de acceso físico: Restringir el acceso físico a los dispositivos y servidores donde se ejecuta el sistema operativo.`},
-            { type: ContentTypes.Text, content: `* 	Protección del hardware: Utilizar cerraduras, cámaras de vigilancia y sistemas de alarma para proteger el hardware contra robos o daños.`},
+            { type: ContentTypes.Text, content: `•	Control de acceso físico: Restringir el acceso físico a los dispositivos y servidores donde se ejecuta el sistema operativo.`},
+            { type: ContentTypes.Text, content: `•	Protección del hardware: Utilizar cerraduras, cámaras de vigilancia y sistemas de alarma para proteger el hardware contra robos o daños.`},
             
             { type: ContentTypes.Subtitle, content: "Seguridad de acceso:"},
-            { type: ContentTypes.Text, content: `* 	Autenticación de usuario: Verificar la identidad del usuario mediante contraseñas, autenticación de dos factores (2FA), biometría u otros métodos.`},
-            { type: ContentTypes.Text, content: `* 	Autorización: Determinar qué recursos y acciones están permitidos para cada usuario o grupo de usuarios.`},
-            { type: ContentTypes.Text, content: `* 	Políticas de contraseñas: Establecer requisitos para la complejidad y el cambio regular de contraseñas.`},
+            { type: ContentTypes.Text, content: `•	Autenticación de usuario: Verificar la identidad del usuario mediante contraseñas, autenticación de dos factores (2FA), biometría u otros métodos.`},
+            { type: ContentTypes.Text, content: `•	Autorización: Determinar qué recursos y acciones están permitidos para cada usuario o grupo de usuarios.`},
+            { type: ContentTypes.Text, content: `•	Políticas de contraseñas: Establecer requisitos para la complejidad y el cambio regular de contraseñas.`},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/19.png") },
             
             { type: ContentTypes.Subtitle, content: "Seguridad de Red:"},
-            { type: ContentTypes.Text, content: `* 	Firewalls: Filtrar el tráfico de red para prevenir accesos no autorizados y ataques.`},
-            { type: ContentTypes.Text, content: `* 	Cifrado de datos: Proteger la información transmitida a través de la red mediante protocolos como SSL/TLS.`},
-            { type: ContentTypes.Text, content: `* 	Detección y prevención de intrusiones (IDS/IPS): Monitorear la red en busca de actividad sospechosa y tomar medidas para prevenir o mitigar intrusiones.`},
+            { type: ContentTypes.Text, content: `•	Firewalls: Filtrar el tráfico de red para prevenir accesos no autorizados y ataques.`},
+            { type: ContentTypes.Text, content: `•	Cifrado de datos: Proteger la información transmitida a través de la red mediante protocolos como SSL/TLS.`},
+            { type: ContentTypes.Text, content: `•	Detección y prevención de intrusiones (IDS/IPS): Monitorear la red en busca de actividad sospechosa y tomar medidas para prevenir o mitigar intrusiones.`},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/20.png") },
             
             { type: ContentTypes.Subtitle, content: "Seguridad de datos:"},
-            { type: ContentTypes.Text, content: `* 	Cifrado de archivos y discos: Proteger los datos almacenados mediante el cifrado para evitar accesos no autorizados.`},
-            { type: ContentTypes.Text, content: `* 	Copias de seguridad: Realizar copias de seguridad regulares de los datos para protegerlos contra pérdidas o daños.`},
-            { type: ContentTypes.Text, content: `* 	Gestión de parches y actualizaciones: Mantener el sistema operativo actualizado con los últimos parches de seguridad para corregir vulnerabilidades conocidas.`},
-            { type: ContentTypes.Text, content: `* 	Auditoría y registro: Registrar eventos de seguridad y actividades del sistema para su posterior revisión y análisis.`},
-            { type: ContentTypes.Text, content: `* 	Monitorización de la integridad del sistema: Supervisar los archivos del sistema y otros componentes para detectar cambios no autorizados.`},
-            { type: ContentTypes.Text, content: `* 	Políticas de seguridad: Establecer políticas y procedimientos de seguridad que regulen el uso del sistema operativo y los recursos del sistema.`},
-            { type: ContentTypes.Text, content: `* 	Capacitación del usuario: Educar a los usuarios sobre las mejores prácticas de seguridad y concienciar sobre las amenazas potenciales.`},
+            { type: ContentTypes.Text, content: `•	Cifrado de archivos y discos: Proteger los datos almacenados mediante el cifrado para evitar accesos no autorizados.`},
+            { type: ContentTypes.Text, content: `•	Copias de seguridad: Realizar copias de seguridad regulares de los datos para protegerlos contra pérdidas o daños.`},
+            { type: ContentTypes.Text, content: `•	Gestión de parches y actualizaciones: Mantener el sistema operativo actualizado con los últimos parches de seguridad para corregir vulnerabilidades conocidas.`},
+            { type: ContentTypes.Text, content: `•	Auditoría y registro: Registrar eventos de seguridad y actividades del sistema para su posterior revisión y análisis.`},
+            { type: ContentTypes.Text, content: `•	Monitorización de la integridad del sistema: Supervisar los archivos del sistema y otros componentes para detectar cambios no autorizados.`},
+            { type: ContentTypes.Text, content: `•	Políticas de seguridad: Establecer políticas y procedimientos de seguridad que regulen el uso del sistema operativo y los recursos del sistema.`},
+            { type: ContentTypes.Text, content: `•	Capacitación del usuario: Educar a los usuarios sobre las mejores prácticas de seguridad y concienciar sobre las amenazas potenciales.`},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/21.png") },
         ]
     },
@@ -128,11 +128,11 @@ export const ActivityFourContentsData: ContentModel[] = [
         title: "Tipos de autenticadores en los sistemas operativos",
         content:[
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/22.png") },
-            { type: ContentTypes.Text, content: `*	Contraseñas: Son la forma más común de autenticación y suelen requerir que el usuario ingrese una combinación de letras, números y caracteres especiales.`},
-            { type: ContentTypes.Text, content: `*	Tarjetas inteligentes: Son dispositivos físicos que contienen información de autenticación y que se insertan en un lector para verificar la identidad del usuario.`},
-            { type: ContentTypes.Text, content: `*	Biometría: Utiliza características físicas únicas del usuario, como huellas dactilares, iris o voz, para autenticar su identidad.`},
-            { type: ContentTypes.Text, content: `*	Tokens de autenticación: Son dispositivos físicos o aplicaciones móviles que generan códigos temporales o únicos que el usuario debe proporcionar junto con su contraseña para autenticarse.`},
-            { type: ContentTypes.Text, content: `*	Certificados digitales: Se utilizan para verificar la identidad de un usuario o dispositivo mediante la firma digital de un tercero de confianza.`},
+            { type: ContentTypes.Text, content: `•	Contraseñas: Son la forma más común de autenticación y suelen requerir que el usuario ingrese una combinación de letras, números y caracteres especiales.`},
+            { type: ContentTypes.Text, content: `•	Tarjetas inteligentes: Son dispositivos físicos que contienen información de autenticación y que se insertan en un lector para verificar la identidad del usuario.`},
+            { type: ContentTypes.Text, content: `•	Biometría: Utiliza características físicas únicas del usuario, como huellas dactilares, iris o voz, para autenticar su identidad.`},
+            { type: ContentTypes.Text, content: `•	Tokens de autenticación: Son dispositivos físicos o aplicaciones móviles que generan códigos temporales o únicos que el usuario debe proporcionar junto con su contraseña para autenticarse.`},
+            { type: ContentTypes.Text, content: `•	Certificados digitales: Se utilizan para verificar la identidad de un usuario o dispositivo mediante la firma digital de un tercero de confianza.`},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/23.jpg") },
         ]
     },

@@ -60,21 +60,21 @@ export const ActivityOneContentsData: ContentModel[] = [
             
             
             { type: ContentTypes.Subtitle, content: `•	Número de usuarios.`},
-            { type: ContentTypes.Text, content: `->	Monousuario: Solo capta las instrucciones de un solo, al igual que no difiere entre usuarios ya que todos tienen el mismo valor. `},
+            { type: ContentTypes.Text, content: `•	Monousuario: Solo capta las instrucciones de un solo, al igual que no difiere entre usuarios ya que todos tienen el mismo valor. `},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-one/img5.png") },
-            { type: ContentTypes.Text, content: `->	Multiusuario: Son capaces de dar servicio a más de un usuario a la vez, ya sea por medio de varias terminales conectadas a la computadora o por medio de sesiones remotas en una red de comunicaciones.`},
+            { type: ContentTypes.Text, content: `•	Multiusuario: Son capaces de dar servicio a más de un usuario a la vez, ya sea por medio de varias terminales conectadas a la computadora o por medio de sesiones remotas en una red de comunicaciones.`},
             
             
             { type: ContentTypes.Subtitle, content: `•	Capacidad de procesamiento.`},
-            { type: ContentTypes.Text, content: `->	Monotarea: Solamente puede ejecutar un proceso del programa de computación a la vez.`},
-            { type: ContentTypes.Text, content: `->	Multitarea: Divide el tiempo de procesador disponible entre los procesos o subprocesos que lo necesitan.`},
+            { type: ContentTypes.Text, content: `•	Monotarea: Solamente puede ejecutar un proceso del programa de computación a la vez.`},
+            { type: ContentTypes.Text, content: `•	Multitarea: Divide el tiempo de procesador disponible entre los procesos o subprocesos que lo necesitan.`},
             
             
             { type: ContentTypes.Subtitle, content: `•	 Responsabilidades y medio de ejecución.`},
-            { type: ContentTypes.Text, content: `->	Computadora: Es utilizado por usuarios con diferentes capacidades, profesiones, experiencias y necesidades, por lo que requiere presentar una GUI intuitiva y compatible con una gran mayoría de aplicaciones de terceros.`},
-            { type: ContentTypes.Text, content: `->	Móvil: Si bien es similar al de una computadora, requiere de presentar sus funciones de una forma más compacta.`},
+            { type: ContentTypes.Text, content: `•	Computadora: Es utilizado por usuarios con diferentes capacidades, profesiones, experiencias y necesidades, por lo que requiere presentar una GUI intuitiva y compatible con una gran mayoría de aplicaciones de terceros.`},
+            { type: ContentTypes.Text, content: `•	Móvil: Si bien es similar al de una computadora, requiere de presentar sus funciones de una forma más compacta.`},
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-one/img6.jpg") },
-            { type: ContentTypes.Text, content: `->	Redes: se encarga de una administración con un alcance más extenso, ya que requiere gestionar recursos de más de un computador, router, switch y demás.`},
+            { type: ContentTypes.Text, content: `•	Redes: se encarga de una administración con un alcance más extenso, ya que requiere gestionar recursos de más de un computador, router, switch y demás.`},
             
             
             
