@@ -1,109 +1,141 @@
-import { CardModel } from "../types/Card";
+import {CardModel} from '../types/Card';
+
+
+export const ActivityOneCardsData: CardModel[] = [
+  {
+    id: 1,
+    title: '¿Qué es un sistema operativo?',
+    subtitle: '',
+  },
+  {
+    id: 2,
+    title: '¿Cuáles son los componentes de los sistemas operativos?',
+    subtitle: '',
+  },
+  {
+    id: 3,
+    title: 'Responsabilidades de un SO',
+    subtitle: '',
+  },
+  {
+    id: 4,
+    title: 'Clasificaciones de SO',
+    subtitle: '',
+  },
+  {
+    id: 5,
+    title: 'Linux y sus características.',
+    subtitle: '',
+  },
+];
+
+export const ActivityTwoCardsData: CardModel[] = [
+  {
+    id: 6,
+    title: 'Concurrencia y sus variantes.',
+    subtitle: '',
+  },
+  {
+    id: 7,
+    title: 'Modelos de programación concurrente.',
+    subtitle: '',
+  },
+  {
+    id: 8,
+    title: 'Ventajas de la concurrencia.',
+    subtitle: '',
+  },
+  {
+    id: 9,
+    title: 'Interacciones entre procesos dentro de la concurrencia.',
+    subtitle: '',
+  },
+  {
+    id: 10,
+    title: 'Modelo de Programación Concurrente en Linux',
+    subtitle: '',
+  },
+  {
+    id: 11,
+    title: 'Ventajas de la Concurrencia en Linux',
+    subtitle: '',
+  },
+  {
+    id: 12,
+    title: 'Tipos de Interacciones entre Procesos en Linux',
+    subtitle: '',
+  },
+];
+
+export const ActivityThreeCardsData: CardModel[] = [
+  {
+    id: 13,
+    title: 'Almacenaje, Memoria y Archivos',
+    subtitle: '',
+  },
+  {
+    id: 14,
+    title: 'Tipos de memorias y Sistemas Operativos',
+    subtitle: '',
+  },
+  {
+    id: 15,
+    title: 'Sistemas Operativos de Red',
+    subtitle: '',
+  },
+  {
+    id: 16,
+    title: 'Importancia de la administración de memoria',
+    subtitle: '',
+  },
+  {
+    id: 17,
+    title: 'Control de los espacios disponibles y ocupados en la memoria',
+    subtitle: '',
+  },
+  {
+    id: 18,
+    title: 'Problemas más frecuentes en la administración de memoria',
+    subtitle: '',
+  },
+];
+
+export const ActivityFourCardsData: CardModel[] = [
+  {
+    id: 19,
+    title: 'Redes y Seguridad, Sistemas Distribuidos',
+    subtitle: '',
+  },
+  {
+    id: 20,
+    title: 'Seguridad Informática',
+    subtitle: '',
+  },
+  {
+    id: 21,
+    title: 'Amenazas del malware contra el sistema ',
+    subtitle: '',
+  },
+  {
+    id: 22,
+    title: 'Intrusos informáticos',
+    subtitle: '',
+  },
+  {
+    id: 23,
+    title: 'Niveles de Seguridad en Sistemas Operativos',
+    subtitle: '',
+  },
+  {
+    id: 24,
+    title: 'Tipos de autenticadores en los sistemas operativos',
+    subtitle: '',
+  },
+];
 
 export const CardsData: CardModel[] = [
-    {
-        id: 1,
-        title: "Publicación 1",
-        subtitle: "Contenido de la publicación 1"
-      },
-      {
-        id: 2,
-        title: "Publicación 2",
-        subtitle: "Contenido de la publicación 2"
-      },
-      {
-        id: 3,
-        title: "Publicación 3",
-        subtitle: "Contenido de la publicación 3"
-      },
-      {
-        id: 4,
-        title: "Publicación 4",
-        subtitle: "Contenido de la publicación 4"
-      },
-      {
-        id: 5,
-        title: "Publicación 5",
-        subtitle: "Contenido de la publicación 5"
-      },
-      {
-        id: 6,
-        title: "Publicación 6",
-        subtitle: "Contenido de la publicación 6"
-      },
-      {
-        id: 7,
-        title: "Publicación 7",
-        subtitle: "Contenido de la publicación 7"
-      },
-      {
-        id: 8,
-        title: "Publicación 8",
-        subtitle: "Contenido de la publicación 8"
-      },
-      {
-        id: 9,
-        title: "Publicación 9",
-        subtitle: "Contenido de la publicación 9"
-      },
-      {
-        id: 10,
-        title: "Publicación 10",
-        subtitle: "Contenido de la publicación 10"
-      },
-      {
-        id: 11,
-        title: "Publicación 11",
-        subtitle: "Contenido de la publicación 11"
-      },
-      {
-        id: 12,
-        title: "Publicación 12",
-        subtitle: "Contenido de la publicación 12"
-      },
-      {
-        id: 13,
-        title: "Publicación 13",
-        subtitle: "Contenido de la publicación 13"
-      },
-      {
-        id: 14,
-        title: "Publicación 14",
-        subtitle: "Contenido de la publicación 14"
-      },
-      {
-        id: 15,
-        title: "Publicación 15",
-        subtitle: "Contenido de la publicación 15"
-      },
-      {
-        id: 16,
-        title: "Publicación 16",
-        subtitle: "Contenido de la publicación 16"
-      },
-      {
-        id: 17,
-        title: "Publicación 17",
-        subtitle: "Contenido de la publicación 15"
-      },
-      {
-        id: 18,
-        title: "Publicación 18",
-        subtitle: "Contenido de la publicación 15"
-      },
-      {
-        id: 19,
-        title: "Publicación 19",
-        subtitle: "Contenido de la publicación 15"
-      },
-      {
-        id: 20,
-        title: "Publicación 20",
-        subtitle: "Contenido de la publicación 15"
-      },
-      {
-        id: 21,
-        title: "Publicación 21",
-        subtitle: "Contenido de la publicación 15"
-      },
+  ...ActivityOneCardsData,
+  ...ActivityTwoCardsData,
+  ...ActivityThreeCardsData,
+  ...ActivityFourCardsData
 ];

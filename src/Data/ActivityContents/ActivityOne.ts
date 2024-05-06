@@ -2,7 +2,7 @@ import { ContentModel, ContentTypes } from "../../types/ContentCard";
 
 export const ActivityOneContentsData: ContentModel[] = [
     {
-        id: 7,
+        id: 1,
         title: "¿Qué es un sistema operativo?",
         content: [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-one/img1.png") },
@@ -15,7 +15,7 @@ export const ActivityOneContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 8,
+        id: 2,
         title: "¿Cuáles son los componentes de los sistemas operativos?",
         content: [
             { type: ContentTypes.Text, content: `En su sentido más abstracto, un sistema operativo (SO) está compuesto de controlador E/S (Entrada y salida), procesador, Software del SO, programas y datos del usuario y el almacenamiento. Para una mejor ilustración se puede basar en la siguiente imagen:`},
@@ -31,7 +31,7 @@ export const ActivityOneContentsData: ContentModel[] = [
     },
 
     {
-        id: 9,
+        id: 3,
         title: "Responsabilidades de un SO",
         content: [
             { type: ContentTypes.Text, content: `Una responsabilidad clave de los sistemas operativos es la gestión de varios recursos disponibles para ellos (espacio de memoria principal, dispositivos de E/S, procesadores) y para planificar su uso por parte de los distintos procesos activos. `},
@@ -53,7 +53,7 @@ export const ActivityOneContentsData: ContentModel[] = [
     },
 
     {
-        id: 10,
+        id: 4,
         title: "Clasificaciones de SO",
         content: [
             { type: ContentTypes.Text, content: `Los sistemas operativos pueden desarrollarse con distintos objetivos en mente, y dentro de cada objetivo se dividen según su caso. Algunos objetivos son los siguientes:`},
@@ -83,7 +83,7 @@ export const ActivityOneContentsData: ContentModel[] = [
 
 
     {
-        id: 11,
+        id: 5,
         title: "Linux y sus características.",
         content: [
             { type: ContentTypes.Text, content: `Los sistemas operativos pueden desarrollarse con distintos objetivos en mente, y dentro de cada objetivo se dividen según su caso. Algunos objetivos son los siguientes:`},

@@ -2,7 +2,7 @@ import { ContentModel, ContentTypes } from "../../types/ContentCard";
 
 export const ActivityFourContentsData: ContentModel[] = [
     {
-        id: 12,
+        id: 19,
         title: "Redes y Seguridad, Sistemas Distribuidos",
         content: [
             { type: ContentTypes.Subtitle, content: `Introducción`},
@@ -43,7 +43,7 @@ export const ActivityFourContentsData: ContentModel[] = [
     },
     
     {
-        id: 13,
+        id: 20,
         title: "Seguridad Informática",
         content:[
             { type: ContentTypes.Text, content: `La seguridad informática se refiere al conjunto de medidas, políticas, procedimientos y herramientas diseñadas para proteger la integridad, la confidencialidad y la disponibilidad de los sistemas de información y los datos que contienen.`},
@@ -51,7 +51,7 @@ export const ActivityFourContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 14,
+        id: 21,
         title: "Amenazas del malware contra el sistema ",
         content:[
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/3.jpg") },
@@ -70,7 +70,7 @@ export const ActivityFourContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 15,
+        id: 22,
         title: "Intrusos informáticos",
         content:[
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/14.jpg") },
@@ -91,7 +91,7 @@ export const ActivityFourContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 16,
+        id: 23,
         title: "Niveles de Seguridad en Sistemas Operativos",
         content:[
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/18.jpg") },
@@ -124,7 +124,7 @@ export const ActivityFourContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 17,
+        id: 24,
         title: "Tipos de autenticadores en los sistemas operativos",
         content:[
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-four/22.png") },

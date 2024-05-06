@@ -2,7 +2,7 @@ import { ContentModel, ContentTypes } from "../../types/ContentCard";
 
 export const ActivityThreeContentsData: ContentModel[] = [
     {
-        id: 1,
+        id: 13,
         title: "Almacenaje, Memoria y Archivos",
         content: [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-three/1.jpg") },
@@ -12,7 +12,7 @@ export const ActivityThreeContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 2,
+        id: 14,
         title: "Tipos de memorias y Sistemas Operativos",
         content: [
             { type: ContentTypes.Subtitle, content: "Windows y Linux utilizan dos tipos de memoria en común:" },
@@ -51,7 +51,7 @@ export const ActivityThreeContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 3,
+        id: 15,
         title: "Sistemas Operativos de Red",
         content: [
             { type: ContentTypes.Text, content: `Los sistemas operativos de red se pueden definir como aquellos equipos comunicados a través de un medio ya sea físico o no llamado servidor. Estos sistemas operativos están diseñados para facilitar la comunicación y el intercambio de datos entre dispositivos conectados en una red. Algunas de las funciones típicas de los sistemas operativos de red incluyen la gestión de conexiones de red, la asignación de recursos de red, la administración de seguridad y la implementación de protocolos de comunicación. `},
@@ -73,7 +73,7 @@ export const ActivityThreeContentsData: ContentModel[] = [
 
 
     {
-        id: 4,
+        id: 16,
         title: "Importancia de la administración de memoria",
         content: [
             { type: ContentTypes.Text, content: `El NOS (Network Operative System) se trata realmente de un software necesario para integrar los componentes de red, como archivos, periféricos y recursos en un todo, al cual el usuario final tiene un cómodo acceso. Permite ver otros equipos conectados en red con sus SOs y usuarios para poder comunicarse con ellos e intercambiar información, ejecutar tareas, transferir archivos (principal función), etc.`},
@@ -84,7 +84,7 @@ export const ActivityThreeContentsData: ContentModel[] = [
     },
 
     {
-        id: 5,
+        id: 17,
         title: "Control de los espacios disponibles y ocupados en la memoria",
         content: [
             { type: ContentTypes.Text, content: `Para llevar un control preciso de los espacios disponibles y ocupados en la memoria, el sistema operativo implementa diversas estrategias:`},
@@ -116,7 +116,7 @@ export const ActivityThreeContentsData: ContentModel[] = [
     },
 
     {
-        id: 6,
+        id: 18,
         title: "Problemas más frecuentes en la administración de memoria",
         content: [
             { type: ContentTypes.Text, content: `La pérdida de datos, bloqueo del sistema o un decremento en cuanto a su funcionamiento pueden ser algunos problemas del software. Entre los problemas relacionados al hardware se incluyen aquellos correspondientes a los módulos de memoria, los cuales pueden consistir en daños físicos o simple degradación por el tiempo. Por último, en cuanto a los errores humanos, la eliminación de archivos importantes o configuraciones, así como la aplicación de una configuración de memoria incorrecta.`},

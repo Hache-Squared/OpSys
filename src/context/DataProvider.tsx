@@ -13,12 +13,16 @@ interface DataProviderProps {
 
 export const DataProvider: FC<DataProviderProps> = ({children}) => {
     // const [cardsForHome, setCardsForHome] = useState<CardModel[]>([])
-    const { cardsForHome } = useCards()
+    const { cardsForHome,  cardsForActivityOne, cardsForActivityTwo, cardsForActivityThree,cardsForActivityFour } = useCards()
     const {aboutUsData} = useAboutUs()
     
     return(
         <DataContext.Provider value={{
             cardsForHome,
+            cardsForActivityOne,
+            cardsForActivityTwo,
+            cardsForActivityThree,
+            cardsForActivityFour,
             aboutUsData
         }}>
             {children}

@@ -2,7 +2,7 @@ import { ContentModel, ContentTypes } from "../../types/ContentCard";
 
 export const ActivityTwoContentsData: ContentModel[] = [
     {
-        id: 18,
+        id: 6,
         title: "Concurrencia y sus variantes.",
         content: [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-two/img1.png") },
@@ -14,7 +14,7 @@ export const ActivityTwoContentsData: ContentModel[] = [
         ]
     },
     {
-        id: 19,
+        id: 7,
         title: "Modelos de programación concurrente.",
         content: [
             { type: ContentTypes.Text, content: `Los modelos de programación concurrente son enfoques utilizados en la programación de software para manejar la ejecución simultánea de múltiples tareas o procesos dentro de un mismo sistema computacional. Estos modelos abordan los desafíos asociados con la concurrencia, como la sincronización de recursos compartidos y la comunicación entre procesos.`},
@@ -46,7 +46,7 @@ export const ActivityTwoContentsData: ContentModel[] = [
     },
 
     {
-        id: 20,
+        id: 8,
         title: "Ventajas de la concurrencia.",
         content: [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-two/img5.png") },
@@ -63,7 +63,7 @@ export const ActivityTwoContentsData: ContentModel[] = [
     },
 
     {
-        id: 21,
+        id: 9,
         title: "Interacciones entre procesos dentro de la concurrencia.",
         content: [
             
@@ -79,7 +79,7 @@ export const ActivityTwoContentsData: ContentModel[] = [
     },
 
     {
-        id: 22,
+        id: 10,
         title: "Modelo de Programación Concurrente en Linux",
         content: [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-two/img8.png") },
@@ -89,7 +89,7 @@ export const ActivityTwoContentsData: ContentModel[] = [
     },
 
     {
-        id: 23,
+        id: 11,
         title: "Ventajas de la Concurrencia en Linux",
         content: [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-two/img8.png") },
@@ -100,7 +100,7 @@ export const ActivityTwoContentsData: ContentModel[] = [
     },
 
     {
-        id: 24,
+        id: 12,
         title: "Tipos de Interacciones entre Procesos en Linux",
         content: [
             { type: ContentTypes.Image, content: require("../../assets/activities/activity-two/img8.png") },
