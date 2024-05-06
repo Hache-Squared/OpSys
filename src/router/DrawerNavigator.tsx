@@ -64,7 +64,7 @@ export const DrawerNavigator = () => {
         screenOptions={options}>
         <Drawer.Screen
           options={{
-            title: 'Inicio',
+            title: 'Todos',
             drawerIcon: ({color}) => (
               <Ionicons name="home" size={20} color={color} />
             ),

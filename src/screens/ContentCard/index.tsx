@@ -9,12 +9,8 @@ import { useContent } from '../../tools/hooks/useContent'
 import { StackScreenProps } from '@react-navigation/stack'
 import { HomeStackNavigatorParams } from '../../router/HomeStack'
 import { ContentTypes } from '../../types/ContentCard'
-// import { Ionicons } from '@expo/vector-icons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-// import Icon from 'react-native-vector-icons/FontAwesome';
 import { useFavoritesStorage } from '../../tools/hooks/useFavoritesStorage'
-import { useFocusEffect } from '@react-navigation/native'
-import { LoadingComponent } from '../../shared/components/LoadingComponent'
 import { AppTheme } from '../../config/AppTheme'
 
 interface ContentCardProps extends StackScreenProps<HomeStackNavigatorParams, "ContentCard"> {
@@ -38,38 +34,34 @@ export const ContentCard: FC<ContentCardProps> = ({title, route}) => {
   return (
     <MainContainer>
 
-      <Title title={content?.title ?? "Titulo"}/>
-      {/* {
-        loading ? (
-          <LoadingComponent/>
-        ) : (
-        )
-      } */}
+      
 
-      <View className='w-full py-2 flex-row items-center justify-end'>
+      <View className='w-full py-0.5 flex-row items-center justify-end'>
         {
           (!isFavorite) ? (
             <TouchableOpacity 
               onPress={() => {
                 addToFavorites()
               }}
-              className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
-                {/* <Text className='text-textboxs'>Añadir A Favoritos</Text> */}
+              className='p-1 flex-row flex-nowrap gap-1 items-center justify-center mr-2'>
                 <Ionicons name="heart-outline" size={32} color="#fff" />
-                {/* <Icon name="rocket" size={30} color="#900" /> */}
             </TouchableOpacity>
           ) : (
             <TouchableOpacity 
               onPress={() => {
                 removeOfFavorites()
               }}
-              className='p-2 flex-row flex-nowrap gap-2 items-center justify-center mr-2'>
-              {/* <Text className='text-textboxs'>Remover De Favoritos</Text> */}
+              className='p-1 flex-row flex-nowrap gap-1 items-center justify-center mr-2'>
               <Ionicons name="heart" size={32} color={AppTheme.secondary} />
             </TouchableOpacity>
           )
         }
         
+      </View>
+
+      <View className='w-full mt-0.5 mb-2'>
+
+        <Title title={content?.title ?? "Titulo"}/>
       </View>
 
       {

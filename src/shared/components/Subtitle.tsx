@@ -5,7 +5,7 @@ interface SubtitleProps {
 }
 export const Subtitle: FC<SubtitleProps> = ( { subtitle = ""} ) => {
   return (
-    <View className='w-full my-1'>
+    <View className='w-11/12 my-1 self-center'>
         <Text className='font-semibold text-sm text-textboxs text-left '>
           {subtitle}
         </Text>

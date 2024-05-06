@@ -1,13 +1,17 @@
-import React, { useContext } from 'react'
-import { MainContainer } from '../../shared/components/MainContainer'
-import { DataContext } from '../../context/DataContext'
-import { AbourCard } from '../../shared/components/AboutCard'
+import React, {useContext} from 'react';
+import {MainContainer} from '../../shared/components/MainContainer';
+import {DataContext} from '../../context/DataContext';
+import {AbourCard, AboutCardSchool} from '../../shared/components/AboutCard';
+import {Text, View} from 'react-native';
 
 export const AboutUsScreen = () => {
-  const {aboutUsData} = useContext(DataContext)
+  const {aboutUsData} = useContext(DataContext);
   return (
     <MainContainer>
-        {aboutUsData?.map((item, index) => {
+      
+      {/* <View className="w-10/12 p-1 flex self-center"></View> */}
+      <AboutCardSchool/>
+      {aboutUsData?.map((item, index) => {
         return (
           <AbourCard
             key={index}
@@ -21,5 +25,5 @@ export const AboutUsScreen = () => {
         );
       })}
     </MainContainer>
-  )
-}
+  );
+};

@@ -4,6 +4,7 @@ import { Card } from "../../shared/components/Card";
 import { StackScreenProps } from "@react-navigation/stack";
 import { DataContext } from "../../context/DataContext";
 import { ActivityStackNavigatorParams } from "../../router/ActivitiesStack";
+import { Title } from "../../shared/components/Title";
 
 interface HomeProps
   extends StackScreenProps<ActivityStackNavigatorParams, "Activity"> {}
@@ -12,6 +13,7 @@ export const ActivityOneScreen: FC<HomeProps> = ({ navigation }) => {
   const { cardsForActivityOne } = useContext(DataContext);
   return (
     <MainContainer>
+      <Title title="Actividad Fundamental 1"/>
       {cardsForActivityOne?.map((item, index) => {
         return (
           <Card
