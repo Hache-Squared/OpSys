@@ -17,8 +17,8 @@ export const Card: FC<CardProps> = ({title, onPress,subtitle}) => {
         <View className=" w-11/12 self-center flex-col items-center justify-center ">
             <ImageRandom/>
         </View>
-        <View className=" w-11/12 self-center flex-col items-center justify-center p-2">
-            <Text className="font-bold text-textboxs">
+        <View className=" w-11/12  flex-col  p-2">
+            <Text className="font-bold text-xl text-textboxs">
                 {title}
             </Text>
         </View>

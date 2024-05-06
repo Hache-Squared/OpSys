@@ -4,13 +4,10 @@ import {
   Dimensions,
   Image,
   Modal,
-  Text,
   TouchableOpacity,
   View,
 } from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-
-// import { ZoomImage } from './ZoomImage';
 
 interface ContentImageProps {
   image: any;
@@ -27,7 +24,6 @@ export const ContentImage: FC<ContentImageProps> = ({image}) => {
         <Image
           source={image}
           className="w-full h-[150px] object-contain rounded-md"
-          // style={{ width: 200, height: 200 }}
         />
       </TouchableOpacity>
 
@@ -38,22 +34,20 @@ export const ContentImage: FC<ContentImageProps> = ({image}) => {
         onRequestClose={() => {
           setModalVisible(!modalVisible);
         }}>
-        <GestureHandlerRootView style={{flex: 1}}>
-          <View className="w-full h-screen bg-gray-700 flex flex-col items-center justify-center">
-            <ImageZoom
-              source={image}
-              minScale={0.5}
-              maxScale={5}
-              doubleTapScale={3}
-              minPanPointers={1}
-              isSingleTapEnabled
-              isDoubleTapEnabled
-              resizeMode="contain"
-              width={Dimensions.get("screen").width}
-              height={Dimensions.get("screen").height * 0.4}
-            />
+          <View className="w-full h-screen bg-gray-800 flex flex-col items-center justify-center">
+            <GestureHandlerRootView style={{flex: 1, alignItems:"center", justifyContent:"center"}}>
+              <ImageZoom
+                source={image}
+                minScale={0.5}
+                maxScale={5}
+                doubleTapScale={3}
+                minPanPointers={1}
+                isSingleTapEnabled
+                isDoubleTapEnabled
+                style={{objectFit:"contain", width: Dimensions.get("screen").width, height: 300}}                
+              />
+            </GestureHandlerRootView>
           </View>
-        </GestureHandlerRootView>
       </Modal>
     </>
   );
