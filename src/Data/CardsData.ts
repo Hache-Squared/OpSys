@@ -75,5 +75,35 @@ export const CardsData: CardModel[] = [
         id: 15,
         title: "Publicación 15",
         subtitle: "Contenido de la publicación 15"
-      }
+      },
+      {
+        id: 16,
+        title: "Publicación 16",
+        subtitle: "Contenido de la publicación 16"
+      },
+      {
+        id: 17,
+        title: "Publicación 17",
+        subtitle: "Contenido de la publicación 15"
+      },
+      {
+        id: 18,
+        title: "Publicación 18",
+        subtitle: "Contenido de la publicación 15"
+      },
+      {
+        id: 19,
+        title: "Publicación 19",
+        subtitle: "Contenido de la publicación 15"
+      },
+      {
+        id: 20,
+        title: "Publicación 20",
+        subtitle: "Contenido de la publicación 15"
+      },
+      {
+        id: 21,
+        title: "Publicación 21",
+        subtitle: "Contenido de la publicación 15"
+      },
 ];
